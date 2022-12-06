@@ -20,10 +20,21 @@ body{
 .btn-back{
     text-decoration: none;
     display: flex;
-    border:1px solid #FF7600;
-    padding: .5rem 1rem;
+    border:1px solid #ccfbf1;
+    padding: .5rem 2rem;
     border-radius: 20px;
     width: fit-content;
+}
+
+.btn-back:hover{
+    transform: scale(1.1);
+    transition: all 0.25s ease-in;
+    box-shadow: #ccfbf1 0px 3px 8px;
+}
+
+
+.btn-circle-calculate:active{
+    box-shadow: #ccfbf1 0px 1px 1px 0px;
 }
 
 
@@ -78,7 +89,7 @@ h2{
     margin: 2rem;
     padding: .5rem 1rem;
     font-size: 1.1rem;
-    border: 1px solid #FF7600;
+    border: 1px solid   #ccfbf1  ;
 }
 
 .btn-circle-calculate:hover{
@@ -125,7 +136,7 @@ h2{
 .div-question-card{
     padding: 1rem;
     margin: 1rem 0rem;
-    border: 2px solid #FF7600;
+    border: 2px solid #ccfbf1 ;
 }
 
 input[type="radio"]{
@@ -144,15 +155,15 @@ input[type="radio"]{
 .btn-quiz-submit{
     font-size: 1.5rem;
     padding: .8rem 1.5rem;
-    border: 1px solid #FF7600;
+    border: 1px solid #ccfbf1 ;
 }
 
 .btn-quiz-submit:hover{
-    box-shadow: rgb(255, 119, 0) 0px 3px 8px;
+    box-shadow: #ccfbf1  0px 3px 8px;
 }
 
 .btn-quiz-submit:active{
-    box-shadow: rgb(255, 119, 0) 0px 1px 1px 0px;
+    box-shadow: #ccfbf1 0px 1px 1px 0px;
 }
 .div-triangle-angle{
     margin: 2rem;
@@ -162,7 +173,7 @@ input[type="radio"]{
     display: block;
 }
 .p-triangle-note{
-    border: 2px solid #FF7600;
+    border: 2px solid #ccfbf1 ;
     border-radius: 20px;
     padding: .5rem 1rem;
     margin: 0 auto;
@@ -172,6 +183,7 @@ input[type="radio"]{
 .btn-triangle-submit{
     padding: .5rem 1rem;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .span-triangle-remark{
